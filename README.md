@@ -1,4 +1,5 @@
 # Implementation of Multivariate Linear Regression
+## DATE:08.11.2023
 ## Aim
 To write a python program to implement multivariate linear regression and predict the output.
 ## Equipment’s required:
@@ -30,10 +31,8 @@ print("Coefficient:",regr.coef_)
 print("Intercept:",regr.intercept_)
 predictedCO2=regr.predict([[3300,1300]])
 print("Predicted CO2 for the corresponding weight and volume",predictedCO2)
-
 ```
 ## Output:
 ![image](https://github.com/gpavana/Multivariate-Linear-Regression/assets/118787343/e3caa44b-4104-45f9-90dd-882f462d45fc)
-
 ## Result
 Thus the multivariate linear regression is implemented and predicted the output using python program.
